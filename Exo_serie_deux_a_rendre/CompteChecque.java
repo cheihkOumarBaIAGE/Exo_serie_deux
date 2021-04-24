@@ -14,7 +14,7 @@ public class CompteChecque extends Compte{
         
     
         public CompteChecque(int solde,int frais){
-            super(nomComplet);
+            super(solde);
             this.frais=frais;
         }
     
